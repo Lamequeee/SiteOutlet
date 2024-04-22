@@ -88,7 +88,7 @@
     margin-right: 0; /* Remove o espaço à direita da última imagem */
 }
 
-.titulo-produto{
+#titulo-produto{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,4 +122,28 @@ footer img {
 footer a{
     color: white;
     text-decoration: none;
+}
+
+.card {
+    width: 300px; /* largura desejada */
+    height: 300px; /* altura desejada */
+    border: 1px solid #252525;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(32, 30, 30);
+    color:white;
+}
+
+.card img {
+    width: 100%; /* imagem ocupa toda a largura do card */
+    height: auto; /* altura ajustada automaticamente */
+    border: 1px solid rgb(43, 43, 43);
+}
+
+.card h2, .card p {
+    margin: 5px 0; /* margem interna entre os elementos */
+    white-space: nowrap; /* texto não será quebrado em várias linhas */
+    overflow: hidden; /* qualquer texto que exceda o espaço disponível será ocultado */
+    color:white;
 }

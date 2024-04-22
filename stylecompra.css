@@ -1,0 +1,139 @@
+*{
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+.fundopreto-lado{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.titulo-imagem-lado {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+#titulo-lado {
+    font-size: 1.5em;
+    text-align: start;
+    margin-left: 40px; 
+}
+
+#titulo-lado h1{
+    font-size: 1.5em;
+}
+
+.imagem-lado {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.imagem-lado img {
+    border-radius: 5px;
+    width: 100%; 
+    height: auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a{
+        margin: 0 35px;
+}
+
+.navigation-links{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -55px;
+
+}
+main{
+    background-color: black;
+}
+
+.imagem-roupa input{
+    position: absolute;
+    margin: 150px;
+    width: 450px;
+    height: 500px;
+    top: 16px
+}
+
+.desc{
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end; /* Centraliza horizontalmente */
+    justify-content: end; /* Centraliza verticalmente */
+    text-align: end; /* Centraliza o texto */
+    right: 30em;
+    
+}
+
+.desc label{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.cores{
+    display: flex;
+}
+
+.bolapreta{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.bolabranca{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.bolaverde{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.tamanho-camisa Button{
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+    background-color: gray;
+    font-size: 1.2em;
+}
+
+.valor input{
+    color: black;
+}
+
+.botao-comprar input{
+    margin: 20px 0px;
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    font-size: 1.6em;
+}

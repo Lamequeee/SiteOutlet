@@ -1,0 +1,60 @@
+*{
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.criar {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.criar h2{
+    padding: 10px;
+}
+
+.criar input{
+    color:black
+}
+
+.card-container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.color-button {
+    margin-right: 5px;
+}
+
+.main-buy{
+    background-color: rgb(8, 8, 8);
+}
+
+button{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+}
